@@ -1,0 +1,1 @@
+This repository contains a simple example of a data race in Rust.  Data races occur when multiple threads (or, in this case, through multiple mutable references) access and modify the same memory location concurrently without proper synchronization.  The `bug.rs` file demonstrates the problem, while `bugSolution.rs` shows how to fix it using a mutex.
